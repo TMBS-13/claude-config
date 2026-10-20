@@ -1,0 +1,27 @@
+{
+  "enableWorkflows": true,
+  "env": {
+    "CAVEMAN_DEFAULT_MODE": "ultra",
+    "PONYTAIL_DEFAULT_MODE": "ultra"
+  },
+  "enabledPlugins": {
+    "caveman@caveman": true,
+    "ponytail@ponytail": true
+  },
+  "extraKnownMarketplaces": {
+    "caveman": {
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      }
+    },
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    }
+  },
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": true
+}
